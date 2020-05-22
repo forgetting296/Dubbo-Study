@@ -7,9 +7,9 @@
         <artifactId>study</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>echo-api-consumer</artifactId>
+    <artifactId>echo-api-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>echo-api-consumer</name>
+    <name>echo-api-provider</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -17,6 +17,7 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>com.shusaku</groupId>
             <artifactId>echo-api</artifactId>
@@ -56,7 +57,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.shusaku.study.EchoApiConsumer</mainClass>
+                    <mainClass>com.shusaku.study.EchoApiProvider</mainClass>
                 </configuration>
             </plugin>
         </plugins>

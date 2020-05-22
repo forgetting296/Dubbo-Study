@@ -16,7 +16,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module></module>
+        <module>echo-annotation-server</module>
+        <module>echo-annotation-consumer</module>
+        <module>echo-api-provider</module>
+        <module>echo-api-consumer</module>
     </modules>
 
     <properties>
